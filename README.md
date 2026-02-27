@@ -12,10 +12,7 @@ It is designed as a basic template for authentication and shopping functionality
 - Prerequisites
 - Installation
 - Usage
-- Features
 - Contributing
-- License
-- Author
 
 ## Prerequisites
 
@@ -32,6 +29,7 @@ Navigate into the project folder:
 
 create a feature branch from main branch and run below commands in terminal
 
+## Usage
 Install dependencies:
 npm install
 
@@ -40,7 +38,7 @@ npx cypress open
 
 
 
-##Contributing
+## Contributing
 If you want to contribute:
 
 Fork the repository
