@@ -23,7 +23,7 @@ Before running this project, make sure you have:
 - Git installed
 - Node.js (>= 18) and npm
 - vs code installed
------------------------------------------------------------------------------------
+
 ## Installation
 
 1. Clone the repository:
@@ -37,17 +37,10 @@ npm install
 
 Run the project with:
 npx cypress open
---------------------------------------------------------------
-Features
-Fast and simple
 
-Easy to use
 
-Cross-platform support
 
-Well-documented
---------------------------------------------------------------
-Contributing
+##Contributing
 If you want to contribute:
 
 Fork the repository
