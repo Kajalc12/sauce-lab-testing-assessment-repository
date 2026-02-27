@@ -39,13 +39,6 @@ Run the project with:
 npx cypress open
 
 
-##Features
-
-Fast and simple
-Easy to use
-Cross-platform support
-Well-documented
-
 
 ##Contributing
 If you want to contribute:
