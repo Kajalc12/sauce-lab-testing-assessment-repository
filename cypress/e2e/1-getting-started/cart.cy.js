@@ -6,8 +6,8 @@ describe('Cart Functionality - SauceDemo', () => {
   beforeEach(() => {
     // Login before each test
     cy.visit(baseUrl);
-  cy.get('#user-name').type(Cypress.env('username'));   // ✅ ab string milegi
-  cy.get('#password').type(Cypress.env('password'));
+    cy.get('#user-name').type('standard_user');
+    cy.get('#password').type('secret_sauce');
     cy.get('#login-button').click();
 
     // Verify login success
@@ -85,6 +85,4 @@ describe('Cart Functionality - SauceDemo', () => {
     cy.get('.shopping_cart_badge').should('exist');
   });
 });
-
-
 
