@@ -1,11 +1,11 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  allowCypressEnv: false,
-
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      config.env.username = process.env.USERNAME;
+      config.env.password = process.env.PASSWORD;
+      return config;
     },
   },
 });
